@@ -19,7 +19,6 @@ const SecondVideo = () => {
     })
 
     tl.to('.lucia', {opacity: 1, duration: 1, ease: 'power1.inOut'});
-    tl.to('.first-vd-wrapper', {opacity: 1, duration: 2, ease: 'power1.inOut'});
 
 
      videoRef.current.onloadedmetadata = () => {
